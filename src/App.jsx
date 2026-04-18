@@ -6,9 +6,7 @@ import {
   Calendar, 
   Utensils, 
   Users, 
-  Music, 
   ChevronRight,
-  Instagram,
   Facebook,
   Award
 } from "lucide-react";
@@ -109,7 +107,7 @@ const Hero = () => {
   );
 };
 
-const Feature = (props: any) => {
+const Feature = (props) => {
   const { icon: Icon, title, description } = props;
   return (
     <motion.div 
